@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io("https://collaborative-canvas-xrpm.onrender.com");
 
 let canvasEle = document.getElementById("canvas");
 let context = canvasEle.getContext("2d");
